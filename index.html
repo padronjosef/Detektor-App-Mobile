@@ -10,11 +10,57 @@
     <link rel="stylesheet" href="assets/toggle.css" />
   </head>
   <body>
+    
+    <div class="map container">
+      <div class="row header-map">
+        <img class="" id="arrow-btn" src="assets/icons/left-arrow.svg" alt="menu-menu"/>
+        <h5 class="col titulo-map">Hyundai Santa Fe</h5>
+        <img class="col-3 icon-header" src="assets/icons/chat2.svg" alt="chat-icon" />
+      </div>
+      <div class="map-img">
+        <img src="assets/Detektor-phone.png" alt="">
+      </div>
+      <div class="row footer-map">
+        <img class="col-4 icon-header" src="assets/icons/map-location.svg" alt="menu-menu"/>
+        <img class="col-4 alarm-icon" src="assets/icons/alarm.svg" alt="menu-menu"/>
+        <img class="col-4 icon-header" src="assets/icons/support.svg" alt="chat-icon" />
+      </div>
+
+    </div>
+
+    <div class="menu container">
+      <div class="row header-menu">
+        <img class="col-3 icon-header" id="close-menu" src="assets/icons/close.svg" alt="menu" />
+        <img class="logo col" src="assets/logo.png" alt="logo detektor">
+      </div>
+
+      <div class="row mb-3">
+        <img class="col-3 icon-header" src="assets/icons/support.svg">
+        <ul class="col"> <a href=""> Asistencia </a> </ul>
+      </div>
+      <div class="row mb-3">
+        <img class="col-3 icon-header" src="assets/icons/car.svg">
+        <ul class="col"> <a href=""> ConduSe </a> </ul>
+      </div>
+      <div class="row mb-3">
+        <img class="col-3 icon-header" src="assets/icons/account.svg">
+        <ul class="col"> <a href=""> Cuenta </a> </ul>
+      </div>
+      <div class="row mb-3">
+        <img class="col-3 icon-header" src="assets/icons/information.svg">
+        <ul class="col"> <a href=""> Informacion </a> </ul>
+      </div>
+      <div class="row pt-3">
+        <img class="col-3 icon-header" src="assets/icons/btn-off.svg">
+        <ul class="col"> <a href=""> Salir </a> </ul>
+      </div>
+    </div>
+
     <header class="container">
       <div class="row">
-        <img class="col-3 icon-header" src="assets/icons/menu.svg" alt="menu-menu" />
+        <img class="col-3 icon-header" id="burger-menu" src="assets/icons/menu.svg" alt="menu-menu"/>
         <h2 class="col-6 titlo-header">ConduSe</h2>
-        <img class="col-3 icon-header" src="assets/icons/chat.svg" alt="chat-icon" />
+        <img class="col-3 icon-header" src="assets/icons/chat2.svg" alt="chat-icon" />
       </div>
     </header>
     <main class="container">
@@ -56,11 +102,11 @@
       <div class="container pb-4 pt-4">
         <div class="row">
           <div class="col-6 map-icons">
-            <img class="icon icon-section mb-2" src="assets/icons/placeholder.svg" alt="" />
+            <img class="icon icon-section mb-2 map-btn" src="assets/icons/placeholder.svg" alt="" />
             <h5 class=""> Ubicar <br /> Vehiculo </h5>
           </div>
           <div class="col-6 map-icons">
-            <img class="icon icon-section mb-2" src="assets/icons/map-location.svg" alt="" />
+            <img class="icon icon-section mb-2 map-btn" src="assets/icons/map-location.svg" alt="" />
             <h5 class=""> Visualizar <br /> Ruta </h5>
           </div>
         </div>
@@ -68,7 +114,6 @@
     </section>
 
     <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="text/javascript" href="main.js" />
+    <script src="script.js"></script>
   </body>
 </html>
